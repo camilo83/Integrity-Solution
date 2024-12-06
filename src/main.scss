@@ -1,0 +1,41 @@
+$font-primary: 'Mulish', sans-serif;
+
+$primary: #f3f2eb;
+$green: #0c4651;
+$green2: #00454f;
+$lime: #d4df2e;
+$blue: #bcc4ca;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0rem;
+  font-family: $font-primary;
+  background: $primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+ul,
+li,
+button,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: $font-primary;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  margin: 0 auto;
+}
