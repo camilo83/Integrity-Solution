@@ -1,0 +1,33 @@
+@import '../../../main.scss';
+
+.custom-button {
+  background-color: $blue;
+  color: $green;
+  border-radius: 40px;
+  padding: 8px 18px;
+  border: 1px solid $green;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: max-content;
+  &:hover {
+    background-color: darken($blue, 10%);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .custom-button {
+    background-color: $blue;
+    color: $green;
+    border-radius: 40px;
+    padding: 8px 18px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    &:hover {
+      background-color: darken($blue, 10%);
+    }
+  }
+}
